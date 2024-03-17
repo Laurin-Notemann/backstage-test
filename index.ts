@@ -2,10 +2,7 @@ import express from "express"
 
 const app = express()
 
-console.log("TEST HAHER");
-console.log("NEIN LABER HAHER");
-console.log("last one ");
-
+console.log("testtest one ");
 
 app.get("/", (req, res) => {
   res.send("<p>Moin meister</p>")
