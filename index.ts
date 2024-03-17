@@ -2,6 +2,9 @@ import express from "express"
 
 const app = express()
 
+console.log("TEST HAHER");
+
+
 app.get("/", (req, res) => {
   res.send("<p>Moin meister</p>")
 })
