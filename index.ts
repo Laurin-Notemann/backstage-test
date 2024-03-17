@@ -4,6 +4,7 @@ const app = express()
 
 console.log("TEST HAHER");
 console.log("NEIN LABER HAHER");
+console.log("last one ");
 
 
 app.get("/", (req, res) => {
