@@ -3,6 +3,7 @@ import express from "express"
 const app = express()
 
 console.log("TEST HAHER");
+console.log("NEIN LABER HAHER");
 
 
 app.get("/", (req, res) => {
